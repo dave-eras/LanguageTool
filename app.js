@@ -25,7 +25,7 @@ app.post('/checkGrammar', async (req, res) => {
         language: targetLang,      // Language to be checked
         motherTongue: helpLang,    // Native language for better suggestions
         username: username,        // Username for the API
-        apiKey: '85436a46213e70c3',    // API key (ensure you provide your valid key)
+        apiKey: '****',    // API key (ensure you provide your valid key)
         enabledOnly: 'false',      // EnabledOnly parameter, as in the example
       }).toString(),
       {
